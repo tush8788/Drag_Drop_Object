@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    background-color: greenyellow;
+    width: 100%;
+}
+
+/* imgbox */
+.imgbox{
+    background-image: url(test.jpg);
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* whitebox */
+.whitebox{
+    background-color: white;
+    width: 13%;
+    height: 150px; 
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/* common css */
+.dashed{
+    background-color: lightgray;
+}
